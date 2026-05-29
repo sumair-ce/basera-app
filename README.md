@@ -1,12 +1,6 @@
 <div align="center">
   <h1 style="margin-bottom:5px;">Basera</h1>
-  <p style="font-size:16px; color:#555;">Hotel & Guest House Booking Application</p>
-  <p>
-    <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  </p>
+  <p style="font-size:16px; color:#555;">Hotel & Guest House Booking Mobile Application</p>
 </div>
 <div style="border:1px solid #ddd; border-radius:10px; padding:18px; margin-top:20px;">
   <h2>Overview</h2>
