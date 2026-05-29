@@ -1,0 +1,178 @@
+{
+  "users": [
+    { "name": "John Doe", "email": "john@example.com", "password": "encrypted_pwd_here", "role": "user" },
+    { "name": "Admin Sam", "email": "admin@example.com", "password": "encrypted_pwd_here", "role": "admin" },
+    { "name": "Manager Ali", "email": "ali@example.com", "password": "encrypted_pwd_here", "role": "manager" }
+  ],
+
+  "rooms": [
+    {
+      "title": "Pine View Lodge",
+      "city": "Kaghan",
+      "category": "Basic",
+      "config": "1-bed",
+      "beds": 1,
+      "pricePerNight": 50,
+      "isAvailable": true,
+      "description": "Cozy room with pine forest view.",
+      "imageUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+    },
+    {
+      "title": "Mountain Nest Retreat",
+      "city": "Kaghan",
+      "category": "Deluxe",
+      "config": "2-bed",
+      "beds": 2,
+      "pricePerNight": 120,
+      "isAvailable": true,
+      "description": "Spacious room with mountain scenery.",
+      "imageUrl": "https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+    },
+    {
+      "title": "Valley Crown Suites",
+      "city": "Kaghan",
+      "category": "VIP",
+      "config": "Family Suite",
+      "beds": 4,
+      "pricePerNight": 260,
+      "isAvailable": true,
+      "description": "Luxury suite for family stays.",
+      "imageUrl": "https://images.unsplash.com/photo-1590490360182-c33d57733427"
+    },
+
+    {
+      "title": "Forest Edge Haven",
+      "city": "Kaghan",
+      "category": "Basic",
+      "config": "1-bed",
+      "beds": 1,
+      "pricePerNight": 50,
+      "isAvailable": true,
+      "description": "Peaceful budget-friendly stay.",
+      "imageUrl": "https://images.unsplash.com/photo-1551776235-dde6d4829808"
+    },
+    {
+      "title": "Hilltop Serenity Stay",
+      "city": "Kaghan",
+      "category": "Deluxe",
+      "config": "2-bed",
+      "beds": 2,
+      "pricePerNight": 120,
+      "isAvailable": true,
+      "description": "Modern room with hilltop view.",
+      "imageUrl": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+    },
+    {
+      "title": "Skyline Luxury Retreat",
+      "city": "Kaghan",
+      "category": "VIP",
+      "config": "Family Suite",
+      "beds": 4,
+      "pricePerNight": 260,
+      "isAvailable": true,
+      "description": "Premium suite with panoramic views.",
+      "imageUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b"
+    },
+
+    {
+      "title": "Pine Crest Inn",
+      "city": "Shogran",
+      "category": "Basic",
+      "config": "1-bed",
+      "beds": 1,
+      "pricePerNight": 50,
+      "isAvailable": true,
+      "description": "Simple stay near pine forest.",
+      "imageUrl": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    },
+    {
+      "title": "Green Valley Escape",
+      "city": "Shogran",
+      "category": "Deluxe",
+      "config": "2-bed",
+      "beds": 2,
+      "pricePerNight": 120,
+      "isAvailable": true,
+      "description": "Comfortable nature-inspired stay.",
+      "imageUrl": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+    },
+    {
+      "title": "Pine Palace Resort",
+      "city": "Shogran",
+      "category": "VIP",
+      "config": "Family Suite",
+      "beds": 4,
+      "pricePerNight": 260,
+      "isAvailable": true,
+      "description": "Luxury resort surrounded by forest.",
+      "imageUrl": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf"
+    }
+  ],
+
+  "discounts": [
+    {
+      "code": "SUMMER10",
+      "type": "percentage",
+      "value": 10,
+      "validUntil": "2026-12-31T23:59:59.000Z",
+      "isActive": true
+    },
+    {
+      "code": "FLAT50",
+      "type": "flat",
+      "value": 50,
+      "validUntil": "2026-12-31T23:59:59.000Z",
+      "isActive": true
+    },
+    {
+      "code": "WINTERVIBES",
+      "type": "percentage",
+      "value": 15,
+      "validUntil": "2026-12-31T23:59:59.000Z",
+      "isActive": true
+    }
+  ],
+
+  "hostels": [
+    {
+      "name": "Kaghan Valley Resort",
+      "city": "Kaghan",
+      "address": "Main Kaghan Road",
+      "description": "A beautiful setup in Kaghan.",
+      "contactEmail": "contact@kaghanresort.com",
+      "contactPhone": "123456789"
+    },
+    {
+      "name": "Shogran Pine Hotel",
+      "city": "Shogran",
+      "address": "Pine Top Shogran",
+      "description": "A cozy stay near the pine forests.",
+      "contactEmail": "info@shogranpine.com",
+      "contactPhone": "987654321"
+    }
+  ],
+
+  "faqs": [
+    { "question": "What is check-in time?", "answer": "Check-in is at 2:00 PM." },
+    { "question": "Is breakfast included?", "answer": "Yes, breakfast is included for Deluxe and VIP rooms." },
+    { "question": "Can I cancel my booking?", "answer": "Yes, cancellations are allowed up to 24 hours before check-in." }
+  ],
+
+  "terms": [
+    {
+      "sectionTitle": "General Policies",
+      "content": "Guests must show valid ID at check-in.",
+      "order": 1
+    },
+    {
+      "sectionTitle": "Payment Terms",
+      "content": "Full payment is required before check-in via the app.",
+      "order": 2
+    },
+    {
+      "sectionTitle": "Cancellations",
+      "content": "Cancellations within 24 hours will be charged.",
+      "order": 3
+    }
+  ]
+}

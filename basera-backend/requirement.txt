@@ -1,0 +1,5 @@
+mongoose
+express
+cors
+jsonwebtoken
+bcryptjs

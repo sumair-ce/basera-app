@@ -1,0 +1,16 @@
+{
+  "name": "basera",
+  "version": "1.0.0",
+  "description": "A modern and highly dynamic mobile application built using Flutter to facilitate seamless bookings for hotel rooms and guest houses across Kaghan and Shogran.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
