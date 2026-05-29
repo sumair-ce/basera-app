@@ -176,29 +176,3 @@ PORT=5000</code></pre>
     </tr>
   </table>
 </div>
-<div style="border:1px solid #ddd; border-radius:10px; padding:18px; margin-top:20px;">
-  <h2>Security Features</h2>
-  <ul>
-    <li>JWT-based authentication</li>
-    <li>Password hashing using bcryptjs</li>
-    <li>Protected backend routes</li>
-    <li>Role-based access control</li>
-    <li>Input validation and secure error handling</li>
-  </ul>
-</div>
-<div style="border:1px solid #ddd; border-radius:10px; padding:18px; margin-top:20px;">
-  <h2>Future Enhancements</h2>
-  <ul>
-    <li>Real payment gateway integration</li>
-    <li>Email and SMS notifications</li>
-    <li>Push notifications</li>
-    <li>Ratings and reviews</li>
-    <li>Wishlist feature</li>
-    <li>Web version</li>
-  </ul>
-</div>
-<div align="center" style="margin-top:30px;">
-  <p><b>Status:</b> Active Development</p>
-  <p><b>Version:</b> 1.0.0</p>
-  <p>Developed using Flutter, Node.js, Express.js, and MongoDB.</p>
-</div>
